@@ -1,3 +1,3 @@
 ﻿using BenchmarkDotNet.Running;
 
-var summary = BenchmarkRunner.Run(typeof(CSharpPerformancePlaybook.Benchmarker.ClassVsStruct));
+var summary = BenchmarkRunner.Run(typeof(CSharpPerformancePlaybook.Benchmarker.StringFunctions));

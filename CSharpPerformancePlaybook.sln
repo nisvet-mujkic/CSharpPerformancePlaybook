@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpPerformancePlaybook.Code", "CSharpPerformancePlaybook.Code\CSharpPerformancePlaybook.Code.csproj", "{3715AB92-6256-4BC3-B6DF-4FB2790FC9D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpPerformancePlaybook.Code", "CSharpPerformancePlaybook.Code\CSharpPerformancePlaybook.Code.csproj", "{3715AB92-6256-4BC3-B6DF-4FB2790FC9D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpPerformancePlaybook.Code.Tests", "CSharpPerformancePlaybook.Code.Tests\CSharpPerformancePlaybook.Code.Tests.csproj", "{0706631A-58D3-43A3-8C8B-44AAAD028F76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpPerformancePlaybook.Code.Tests", "CSharpPerformancePlaybook.Code.Tests\CSharpPerformancePlaybook.Code.Tests.csproj", "{0706631A-58D3-43A3-8C8B-44AAAD028F76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpPerformancePlaybook.Benchmarker", "CSharpPerformancePlaybook.Benchmarker\CSharpPerformancePlaybook.Benchmarker.csproj", "{DDF3CCCC-D051-4259-AD12-0A618E1A8734}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpPerformancePlaybook.Benchmarker", "CSharpPerformancePlaybook.Benchmarker\CSharpPerformancePlaybook.Benchmarker.csproj", "{DDF3CCCC-D051-4259-AD12-0A618E1A8734}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpPerformancePlaybook.Benchmarker.Tests", "CSharpPerformancePlaybook.Benchmarker.Tests\CSharpPerformancePlaybook.Benchmarker.Tests.csproj", "{C747DBE8-C6D2-4FDC-BA3B-6F031C9ED724}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{DDF3CCCC-D051-4259-AD12-0A618E1A8734}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDF3CCCC-D051-4259-AD12-0A618E1A8734}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDF3CCCC-D051-4259-AD12-0A618E1A8734}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C747DBE8-C6D2-4FDC-BA3B-6F031C9ED724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C747DBE8-C6D2-4FDC-BA3B-6F031C9ED724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C747DBE8-C6D2-4FDC-BA3B-6F031C9ED724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C747DBE8-C6D2-4FDC-BA3B-6F031C9ED724}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

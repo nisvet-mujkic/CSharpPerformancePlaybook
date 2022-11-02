@@ -1,8 +1,13 @@
 ﻿using BenchmarkDotNet.Attributes;
+using BenchmarkDotNet.Mathematics;
+using BenchmarkDotNet.Order;
 using CSharpPerformancePlaybook.Code;
 
 namespace CSharpPerformancePlaybook.Benchmarker
 {
+    [Orderer(SummaryOrderPolicy.FastestToSlowest)]
+    [RankColumn(NumeralSystem.Arabic)]
+    [MemoryDiagnoser]
     public class StringFunctions
     {
         [Benchmark]
